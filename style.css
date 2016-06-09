@@ -1,0 +1,142 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+body,html {
+	width: 100%;
+	background: #1C33EC;
+}
+.wrapper {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	background: #522385;
+}
+.head {
+	width: 200px;
+	height: 180px;
+	border-radius: 50% 50% 0 0/44%;
+	background: -webkit-linear-gradient(to top, #fff 30px,#FFCC99 0);
+	background: linear-gradient(to top, #fff 30px,#FFCC99 0);
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -100px;
+	overflow: hidden;
+}
+.hand-left,
+.hand-right {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: #FFCC99;
+	bottom: 0;
+	margin-bottom: -20px;
+	border-radius: 50%;
+}
+.hand-left {
+	left: 30px;
+}
+.hand-right {
+	right: 30px;
+}
+.ear-right,
+.ear-left {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	border-radius: 50%;
+	background: #FFCC99;
+	bottom: 80px;
+}
+.ear-left {
+	left: 40px;
+}
+.ear-right {
+	right: 40px;
+}
+.hair {
+	position: absolute;
+	top: -60px;
+	background: #402000;
+	height: 100px;
+	width: 100%;
+}
+.face {
+	position: absolute;
+	height: 50px;
+	width: 60px;
+	top: 70px;
+	left: 50%;
+	margin-left: -30px;
+}
+.eye-left,
+.eye-right {
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: #402000;
+	position: absolute;
+	top: 0;
+}
+.eye-left {
+	left: 0;
+}
+.eye-right {
+	right: 0;
+}
+.mouse {
+	height: 20px;
+	width: 24px;
+	background: rgba(255,93,102,1);
+	border-radius: 0 0 50% 50%/60%;
+	position: absolute;
+	bottom: 0;
+	border-color: transparent;
+	left: 50%;
+	margin-left: -12px;
+}
+.eye-left:after,
+.eye-right:after {
+	content: '';
+	position: absolute;
+	background: rgba(255,93,102,.3);
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	top: 30px;
+} 
+.eye-left:after {
+	left:-10px;
+}
+.eye-right:after {
+	right: -10px;
+}
+.mouse:after {
+	content: '';
+	height: 7px;
+	width: 8px;
+	background: rgba(255,93,102,.3);
+	border-radius: 0 0 50% 50%/60%;
+	position: absolute;
+	bottom: -14px;
+	left: 50%;
+	margin-left: -4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
